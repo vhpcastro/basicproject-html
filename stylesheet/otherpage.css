@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Pirate;
+    src: url(../assets/fonts/piecesofeight.ttf);
+}
+
+body {
+    margin: 0px;
+    background-image: url(../assets/images/background.png);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+label.form {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.mapa {
+    margin-top: 30px;
+}

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Pirate;
+    src: url(../assets/fonts/piecesofeight.ttf);
+}
+
+body {
+    margin: 0px;
+    background-image: url(../assets/images/background.png);
+    background-size: cover;
+}
+
+h1, h2 {
+    font-family: Pirate;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.button {
+    background-color: rgb(49, 113, 233);
+    text-decoration: none;
+    border: 1px solid;
+    border-color: rgb(49, 113, 233);
+    margin-bottom: 2rem;
+    font-family: Pirate;
+    padding: 1rem;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    transition: ease-in-out 0.5s;
+}
