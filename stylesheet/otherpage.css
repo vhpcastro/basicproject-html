@@ -24,17 +24,80 @@ body {
     width: 50%;
     height: 50%;
     border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
 }
 
 label.form {
     display: flex;
     align-items: center;
-    padding: 3px;
+    padding: 1rem;
 }
 
 .mapa {
-    margin-top: 30px;
+    margin-top: 2rem;
+}
+
+.formulario {
+    background-image: url(../assets/images/map.jpg);
+    font-family: Pirate;
+    width: 75%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+#mensagem {
+    width: 75%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.button {
+    background-color: rgb(133, 90, 41);
+    text-decoration: none;
+    border: none;
+    font-family: Pirate;
+    padding: 1rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    transform: translateY(-4px);
+    transition: ease-in-out 0.5s;
+}
+
+#button02 {
+    margin-top: 2rem;
+    background-color: rgb(238, 41, 41);
+    text-decoration: none;
+    border: 1px solid;
+    border-color: rgb(238, 41, 41);
+    margin-bottom: 2rem;
+    font-family: Pirate;
+    padding: 1rem;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+#button02:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    transform: translateY(-4px);
+    transition: ease-in-out 0.5s;
 }

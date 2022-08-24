@@ -52,5 +52,28 @@ h1, h2 {
     background-color: white;
     color: black;
     border-color: black;
+    transform: translateY(-4px);
     transition: ease-in-out 0.5s;
+}
+
+.box .boxdir {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+    
+}
+
+.box .boxdir .boxdir01 {
+    width: 25%;
+    height: 25%;
+}
+
+.box .boxdir .boxdir02 {
+    width: 75%;
+    height: 25%;
+    margin-left: 2rem;
+}
+
+#video {
+    padding-top: 2rem;
 }
