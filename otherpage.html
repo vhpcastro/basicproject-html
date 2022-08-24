@@ -15,7 +15,7 @@
             <div class="formulario">
                 <form>
                     <label class="form" for="nome"> Nome: </label>
-                    <input type="text">
+                    <input id="nome" type="text">
                     <br>
 
                     <label class="form" for="fruta"> Akuma no Mi: </label>
@@ -33,7 +33,7 @@
                     <br>
 
                     <label class="form" for="recompensa"> Recompensa: </label>
-                    <input type="text">
+                    <input id="recompensa" type="text">
                     <br>
 
                     <label class="form" for="mensagem">Sobre você: </label>
@@ -41,7 +41,7 @@
                     <br>
 
                     <div class="btn">
-                        <input class="button" type="submit" name="acao" value="Enviar">
+                        <input onclick="enviar()" class="button" type="submit" name="acao" value="Enviar">
                     </div>
 
                 </form>
@@ -54,10 +54,13 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <a href="index.html" class="button" id="button02">Kaido está atacando!</a>
+            <a href="index.html" onclick="navegar()" class="button" id="button02">Kaido está atacando!</a>
 
         </div>
     </div>
+
+<script src="./scripts/otherpage.js"></script>
+
 </body>
 
 </html>
